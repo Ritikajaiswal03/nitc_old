@@ -1,0 +1,42 @@
+<div class="container">
+	<form>
+	<div class="form-group">
+	<label for="exampleInputEmail1">Name</label>
+	<div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  </div>
+
+ <!-- Phone Number -->
+ <div class="form-group">
+<div class="form-outline"> 
+ <label class="form-label" for="typePhone">Mobile number</label>
+ <input type="tel" id="typePhone" class="form-control" placeholder="Enter Mobile Number" /> 
+</div>
+</div>
+
+	<div class="form-group">
+		<label for="exampleInputEmail1">RollNo.</label>
+		<input type="text" class="form-control" placeholder="Enter RollNo.">
+	</div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button><br>
+  Already have account? 
+  <%= link_to 'Login',home_login_path %>
+</form>
+</div>
